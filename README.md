@@ -45,7 +45,7 @@ A **5-fold cross-validation** procedure is used throughout the analysis.
 
 The data are shuffled before splitting and a fixed random state is used for reproducibility.
 
-The choice of (k=5) provides a balance between computational cost and the bias-variance trade-off, while also providing sufficiently large validation subsets and allowing each model to train on approximately 80% of the available observations in each fold.
+The choice of k=5 provides a balance between computational cost and the bias-variance trade-off, while also providing sufficiently large validation subsets and allowing each model to train on approximately 80% of the available observations in each fold.
 
 ## Files
 
